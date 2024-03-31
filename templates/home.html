@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!-- Tailwind CSS CDN link --> 
+    <link href= "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> 
+	<title>Start - Vice Versa</title>
+</head>
+<body class="bg-gray-100">
+
+	<div class="w-full m-auto p-28">
+		
+	<h1 class="inline-block	rounded-xl mb-2 w-18 pt-4 pb-2 text-3xl font-bold  dark:text-white box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2">Vice Versa</h1>
+<form action="{% url 'reverse' %}">
+
+	<textarea placeholder="Enter whatever you want ..." class="block p-2.5 w-full text-xl text-gray-900 bg-gray-300 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" cols="50" rows="10" name="usertext"></textarea>
+	<br><br>
+	<input type="submit" value="Reverse!" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+
+</form>
+	</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS CDN link -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>The end of Vice Versa</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="w-full m-auto p-28 bg-gray-100">
+      <h1
+        class="m-auto pt-4 pb-2 text-3xl font-bold text-gray-900 dark:text-white"
+      >
+        Original text has {{number_of_words}} words
+      </h1>
+
+      <p>{{usertext}}</p>
+      <br/>
+      <hr class="h-2 bg-gray-200 rounded-full"/>
+      <h1>Reversed Text</h1>
+
+      <p>{{reversedtext}}</p>
+    </div>
+  </body>
+</html>

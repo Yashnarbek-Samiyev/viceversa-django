@@ -1,0 +1,9 @@
+.vscode/
+env/
+    bin/
+    include/
+    lib/
+    share/
+
+
+db.sqlite3
